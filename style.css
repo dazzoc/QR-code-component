@@ -5,10 +5,13 @@
 }
 
 body {
-    /* display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; */
-    background-color: hsl(220, 15%, 55%);
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
 }
 
@@ -17,10 +20,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 340px;
-    height: 500px;
+    width: 330px;
+    height: 505px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
 }
 
@@ -42,6 +45,8 @@ body {
     text-align: center;
     font-size: 15px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(220, 15%, 55%);
 }
 
 
